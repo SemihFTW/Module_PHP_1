@@ -1,0 +1,16 @@
+.content{
+    display: flex;
+}
+
+.circle{
+    height: 250px;
+    width: 259px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.square{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+}

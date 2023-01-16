@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semih Tulek</title>
+</head>
+<body>
+    <h2>Happy 2023!</h2>
+    <div class="content">
+
+        <div class="square"></div>
+        <div class="circle"></div>  
+    </div>
+    <a href="">klik hier</a>
+
+      <form>
+        <fieldset>
+            <p><label for="Veld1">Veld1:</label><input id="Veld1" type="tekst" name="Veld1" /> </p>
+            <p><label for="Veld2">Veld2:</label><input id="Veld2" type="tekst" name="Veld2" /> </p>
+            <button onclick="myFunction()">Toon tekst in een alert.</button>
+        </fieldset>
+        <script>
+            function myFunction() {
+                alert(document.getElementById("Veld1").value+"-"+document.getElementById("Veld2").value);
+            }
+        </script>
+    </form>
+
+</body>
+</html>
